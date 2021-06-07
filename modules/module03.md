@@ -24,7 +24,6 @@ Once sources have been registered and scanned, the underlying data catalog will 
 1. [Search Catalog](#1-search-catalog)
 2. [Update an Asset](#2-update-an-asset)
 3. [Browse Assets](#3-browse-assets)
-4. [Bulk Edit](#4-bulk-edit)
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 
@@ -58,14 +57,14 @@ Once sources have been registered and scanned, the underlying data catalog will 
 
 4. Navigate to the **Schema** tab and update the **column descriptions** using the sample text below.
 
-    | Column Name  | Description |
-    | --- | --- |
-    | Date | `Date on which the query was issued.` |
-    | Query | `The actual search query issued by user(s).` |
-    | IsImplicitIntent | `True if query did not mention covid or coronavirus or sarsncov2 (e.g, “Shelter in place”). False otherwise.` |
-    | State | `State from where the query was issued.` |
-    | Country | `Country from where the query was issued.` |
-    | PopularityScore | `Value between 1 and 100 inclusive. 1 indicates least popular query on the day/State/Country with Coronavirus intent, and 100 indicates the most popular query for the same geography on the same day.` |
+    | Column Name      | Description                                                                                                                                                                                             |
+    | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Date             | `Date on which the query was issued.`                                                                                                                                                                   |
+    | Query            | `The actual search query issued by user(s).`                                                                                                                                                            |
+    | IsImplicitIntent | `True if query did not mention covid or coronavirus or sarsncov2 (e.g, “Shelter in place”). False otherwise.`                                                                                           |
+    | State            | `State from where the query was issued.`                                                                                                                                                                |
+    | Country          | `Country from where the query was issued.`                                                                                                                                                              |
+    | PopularityScore  | `Value between 1 and 100 inclusive. 1 indicates least popular query on the day/State/Country with Coronavirus intent, and 100 indicates the most popular query for the same geography on the same day.` |
 
     > :bulb: **Did you know?**
     >
@@ -107,32 +106,7 @@ While the search experience is ideal for keyword based discovery, Purview Studio
 
     ![ADLS Gen2 Container](../images/module03/03.12-browse-container.png)
 
-<div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
-
-## 4. Bulk Edit
-
-Azure Purview allows us to perform certain operations (add/replace/remove) against a subset of attributes (Expert, Owner, Term, Classification) in bulk directly within Purview Studio.
-
-
-1. Open Purview Studio and from the **Home** screen, type the asterisk character (**\***) into the search bar and hit **Enter**.
-
-    ![Search Wildcard](../images/module03/03.01-search-wildcard.png)
-
-2. Hover your mouse over an item in the list to reveal the checkbox on the right-hand side. Select five items and click **View selected**.
-
-    ![View Selected](../images/module03/03.13-bulk-view.png)
-
-3. Click **Bulk edit**.
-
-    ![Bulk Edit](../images/module03/03.14-bulk-edit.png)
-
-4. Set the **Attribute** to `Owner`, set **Operation** to `Add`, select two users in your organization and click **Apply**.
- 
-    ![Apply Changes](../images/module03/03.15-bulk-apply.png)
-
-5. Click **Deselect all and close**.
-
-    ![Deselect](../images/module03/03.16-bulk-deselect.png)
+> Note: Azure Purview allows us to perform certain operations (add/replace/remove) against a subset of attributes (Expert, Owner, Term, Classification) in bulk directly within Purview Studio.
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 

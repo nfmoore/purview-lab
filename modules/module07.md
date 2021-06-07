@@ -21,18 +21,27 @@ Insights provides customers, a single pane of glass view into their catalog and 
 * Sensitivity Labels
 * File Extensions
 
+> **Note: This module is for illustrative purposes only. Participants will not have sufficient variety in their lab environment to produce the insights displayed here. Please read through the content here**
+
 ## :dart: Objectives
 
 * Understand the different types of insights that can be gleaned from the out of the box reporting.
 
 ## Table of Contents
 
-1. [Asset Insights](#1-asset-insights)
-2. [Scan Insights](#2-scan-insights)
-3. [Glossary Insights](#3-glossary-insights)
-4. [Classification Insights](#4-classification-insights)
-5. [Sensitivity Labels Insights](#5-sensitivity-labels-insights)
-6. [File Extensions Insights](#6-file-extensions-insights)
+- [Module 07 - Insights](#module-07---insights)
+  - [:thinking: Prerequisites](#thinking-prerequisites)
+  - [:loudspeaker: Introduction](#loudspeaker-introduction)
+  - [:dart: Objectives](#dart-objectives)
+  - [Table of Contents](#table-of-contents)
+  - [1. Asset Insights](#1-asset-insights)
+  - [2. Scan Insights](#2-scan-insights)
+  - [3. Glossary Insights](#3-glossary-insights)
+  - [4. Classification Insights](#4-classification-insights)
+  - [5. Sensitivity Labels Insights](#5-sensitivity-labels-insights)
+  - [6. File Extensions Insights](#6-file-extensions-insights)
+  - [:mortar_board: Knowledge Check](#mortar_board-knowledge-check)
+  - [:tada: Summary](#tada-summary)
 
 <div align="right"><a href="#module-07---insights">↥ back to top</a></div>
 
