@@ -29,10 +29,10 @@ To populate Azure Purview with assets for data discovery and understanding, we m
   - [:dart: Objectives](#dart-objectives)
   - [Table of Contents](#table-of-contents)
   - [1. Grant the Azure Purview Managed Identity Access](#1-grant-the-azure-purview-managed-identity-access)
-  - [3. Upload Data to Azure Data Lake Storage Gen2 Account](#3-upload-data-to-azure-data-lake-storage-gen2-account)
-  - [4. Create a Collection](#4-create-a-collection)
-  - [5. Register a Source (ADLS Gen2)](#5-register-a-source-adls-gen2)
-  - [6. Scan a Source with the Azure Purview Managed Identity](#6-scan-a-source-with-the-azure-purview-managed-identity)
+  - [2. Upload Data to Azure Data Lake Storage Gen2 Account](#2-upload-data-to-azure-data-lake-storage-gen2-account)
+  - [3. Create a Collection](#3-create-a-collection)
+  - [4. Register a Source (ADLS Gen2)](#4-register-a-source-adls-gen2)
+  - [5. Scan a Source with the Azure Purview Managed Identity](#5-scan-a-source-with-the-azure-purview-managed-identity)
   - [:mortar_board: Knowledge Check](#mortar_board-knowledge-check)
   - [:tada: Summary](#tada-summary)
 
@@ -72,7 +72,7 @@ In this module we will walk through how to grant the Azure Purview Managed Ident
 
 <div align="right"><a href="#module-02---register--scan">↥ back to top</a></div>
 
-## 3. Upload Data to Azure Data Lake Storage Gen2 Account
+## 2. Upload Data to Azure Data Lake Storage Gen2 Account
 
 Before proceeding with the following steps, you will need to:
 
@@ -116,7 +116,7 @@ Before proceeding with the following steps, you will need to:
 
 <div align="right"><a href="#module-02---register--scan">↥ back to top</a></div>
 
-## 4. Create a Collection
+## 3. Create a Collection
 
 1. Open Purview Studio, navigate to **Sources** and click **New collection**.
 
@@ -132,7 +132,7 @@ Before proceeding with the following steps, you will need to:
 
 <div align="right"><a href="#module-02---register--scan">↥ back to top</a></div>
 
-## 5. Register a Source (ADLS Gen2)
+## 4. Register a Source (ADLS Gen2)
 
 1. Open Purview Studio, navigate to **Sources** and click **Register**.
 
@@ -152,7 +152,7 @@ Before proceeding with the following steps, you will need to:
 
 <div align="right"><a href="#module-02---register--scan">↥ back to top</a></div>
 
-## 6. Scan a Source with the Azure Purview Managed Identity
+## 5. Scan a Source with the Azure Purview Managed Identity
 
 1. Open Purview Studio, navigate to **Sources**, and within the Azure Data Lake Storage Gen2 source tile, click the **New Scan** button.
 
