@@ -1,6 +1,6 @@
 # Module 08 - Monitor
 
-[< Previous Module](../modules/module07.md) - **[Home](../README.md)** - [Next Module>](../modules/module09.md)
+[< Previous Module](../modules/module07.md) - **[Home](../README.md)**
 
 ## :thinking: Prerequisites
 
@@ -19,7 +19,9 @@ Azure Purview administrators can use Azure Monitor to track the operational stat
 ## Table of Contents
 
 1. [Provide a User Access to Azure Purview Metrics](#1-provide-a-user-access-to-azure-purview-metrics)
+   
 2. [Visualize Azure Purview Metrics](#2-visualize-azure-purview-metrics)
+   
 3. [Send Diagnostic Logs to Azure Storage](#3-send-diagnostic-logs-to-azure-storage)
 
 <div align="right"><a href="#module-08---monitor">↥ back to top</a></div>
@@ -40,11 +42,11 @@ Metrics can be accessed from the Azure Portal for an Azure Purview account insta
 
 3. Populate the role assignment prompt as per the table below, select the member from the list, click **Save**.
 
-    | Property  | Value |
-    | --- | --- |
-    | Role | `Monitoring Reader` |
+    | Property         | Value                               |
+    | ---------------- | ----------------------------------- |
+    | Role             | `Monitoring Reader`                 |
     | Assign access to | `User, group, or service principal` |
-    | Select | `<account-name>` |
+    | Select           | `<account-name>`                    |
 
     > :bulb: **Did you know?**
     >
@@ -67,12 +69,12 @@ Metrics can be accessed from the Azure Portal for an Azure Purview account insta
 2. Click to open the **Metric** drop-down menu and select one of the metrics (e.g. `Scan time taken`).
 
     **Available Metrics**
-    | Metric ID  | Metric Name | Metric Description |
-    | --- | --- | --- |
-    | ScanCancelled | `Scan Cancelled` | Indicates the number of scans cancelled. |
-    | ScanCompleted | `Scan Completed` | Indicates the number of scans completed successfully. |
-    | ScanFailed | `Scan Failed` | Indicates the number of scans failed. |
-    | ScanTimeTaken | `Scan Time Taken` | Indicates the total scan time in seconds. |
+    | Metric ID     | Metric Name       | Metric Description                                    |
+    | ------------- | ----------------- | ----------------------------------------------------- |
+    | ScanCancelled | `Scan Cancelled`  | Indicates the number of scans cancelled.              |
+    | ScanCompleted | `Scan Completed`  | Indicates the number of scans completed successfully. |
+    | ScanFailed    | `Scan Failed`     | Indicates the number of scans failed.                 |
+    | ScanTimeTaken | `Scan Time Taken` | Indicates the total scan time in seconds.             |
 
     ![Select Metric](../images/module08/08.06-metrics-select.png)
 
@@ -100,15 +102,15 @@ Metrics can be accessed from the Azure Portal for an Azure Purview account insta
 
     > Note: The table below provides example values for illustrative purposes only, ensure to specify values that make sense for your deployment.
 
-    | Parameter  | Example Value |
-    | --- | --- |
-    | Subscription | `Azure Internal Access` |
-    | Resource group | `purview-workshop` |
-    | Storage account name | `blob2486` |
-    | Location | `(South America) Brazil South` |
-    | Performance | `Standard` |
-    | Account kind | `StorageV2 (general purpose v2)` |
-    | Replication | `Locally-redundant storage (LRS)` |
+    | Parameter            | Example Value                     |
+    | -------------------- | --------------------------------- |
+    | Subscription         | `Azure Internal Access`           |
+    | Resource group       | `purview-workshop`                |
+    | Storage account name | `blob2486`                        |
+    | Location             | `(South America) Brazil South`    |
+    | Performance          | `Standard`                        |
+    | Account kind         | `StorageV2 (general purpose v2)`  |
+    | Replication          | `Locally-redundant storage (LRS)` |
 
     ![Review Storage Account](../images/module08/08.11-storage-review.png)
 

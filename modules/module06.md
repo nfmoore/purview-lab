@@ -27,16 +27,13 @@ This module steps through what is required for connecting an Azure Data Factory 
 
 ## Table of Contents
 
-- [Module 06 - Lineage](#module-06---lineage)
-  - [:thinking: Prerequisites](#thinking-prerequisites)
-  - [:loudspeaker: Introduction](#loudspeaker-introduction)
-  - [:dart: Objectives](#dart-objectives)
-  - [Table of Contents](#table-of-contents)
-  - [1. Create an Azure Data Factory Connection in Azure Purview](#1-create-an-azure-data-factory-connection-in-azure-purview)
-  - [2. Copy Data using Azure Data Factory](#2-copy-data-using-azure-data-factory)
-  - [3. View Lineage in Azure Purview](#3-view-lineage-in-azure-purview)
-  - [:mortar_board: Knowledge Check](#mortar_board-knowledge-check)
-  - [:tada: Summary](#tada-summary)
+1. [Create a Classification](#1-create-a-classification)
+   
+2. [Copy Data using Azure Data Factory](#2-copy-data-using-azure-data-factory)
+   
+3. [View Lineage in Azure Purview](#3-view-lineage-in-azure-purview)
+
+
 
 <div align="right"><a href="#module-06---lineage">↥ back to top</a></div>
 

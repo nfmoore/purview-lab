@@ -27,21 +27,23 @@ Insights provides customers, a single pane of glass view into their catalog and 
 
 * Understand the different types of insights that can be gleaned from the out of the box reporting.
 
+
 ## Table of Contents
 
-- [Module 07 - Insights](#module-07---insights)
-  - [:thinking: Prerequisites](#thinking-prerequisites)
-  - [:loudspeaker: Introduction](#loudspeaker-introduction)
-  - [:dart: Objectives](#dart-objectives)
-  - [Table of Contents](#table-of-contents)
-  - [1. Asset Insights](#1-asset-insights)
-  - [2. Scan Insights](#2-scan-insights)
-  - [3. Glossary Insights](#3-glossary-insights)
-  - [4. Classification Insights](#4-classification-insights)
-  - [5. Sensitivity Labels Insights](#5-sensitivity-labels-insights)
-  - [6. File Extensions Insights](#6-file-extensions-insights)
-  - [:mortar_board: Knowledge Check](#mortar_board-knowledge-check)
-  - [:tada: Summary](#tada-summary)
+1. [Asset Insights](#1-asset-insights)
+
+2. [Scan Insights](#2-scan-insights)
+
+3. [Glossary Insights](#3-glossary-insights)
+
+4. [Classification Insights](#4-classification-insights)
+
+5. [Sensitivity Labels Insights](#5-sensitivity-labels-insights)
+
+6. [File Extensions Insights](#6-file-extensions-insights)
+
+
+
 
 <div align="right"><a href="#module-07---insights">↥ back to top</a></div>
 

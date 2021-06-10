@@ -22,8 +22,11 @@ Once sources have been registered and scanned, the underlying data catalog will 
 ## Table of Contents
 
 1. [Search Catalog](#1-search-catalog)
-2. [Update an Asset](#2-update-an-asset)
-3. [Browse Assets](#3-browse-assets)
+
+3. [Update an Asset](#2-update-an-asset)
+
+4. [Browse Assets](#3-browse-assets)
+
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 

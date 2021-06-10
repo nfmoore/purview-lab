@@ -24,10 +24,15 @@ Azure Purview provides a large set of default classifications that represent typ
 ## Table of Contents
 
 1. [Create a Classification](#1-create-a-classification)
+
 2. [Create a Classification Rule (Regular Expression)](#2-create-a-custom-classification-rule-regular-expression)
+
 3. [Create a Scan Rule Set](#3-create-a-scan-rule-set)
+
 4. [Upload Data to an Azure Data Lake Storage Gen2 Account](#4-upload-data-to-an-azure-data-lake-storage-gen2-account)
+
 5. [Scan an Azure Data Lake Storage Gen2 Account](#5-scan-an-azure-data-lake-storage-gen2-account)
+
 6. [Search by Classification](#6-search-by-classification)
 
 <div align="right"><a href="#module-05---classifications">↥ back to top</a></div>

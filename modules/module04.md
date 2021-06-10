@@ -23,11 +23,17 @@ A glossary is an important tool for maintaining and organizing your catalog. You
 ## Table of Contents
 
 1. [Create a Term (System Default Term Template)](#1-create-a-term-system-default-term-template)
+
 2. [Create a Term (Custom Term Template)](#2-create-a-term-custom-term-template)
+
 3. [Bulk Import Terms](#3-bulk-import-terms)
+
 4. [Bulk Export Terms](#4-bulk-export-terms)
+
 5. [Assign a Term to an Asset](#5-assign-a-term-to-an-asset)
+
 6. [Update an Existing Term](#6-update-an-existing-term)
+
 
 <div align="right"><a href="#module-04---glossary">↥ back to top</a></div>
 
@@ -47,15 +53,15 @@ A glossary is an important tool for maintaining and organizing your catalog. You
 
 3. Populate the term fields as per the examples below and click **Create**.
 
-    | Field  | Example Value |
-    | --- | --- |
-    | Status | `Approved` |
-    | Name | `Contoso Parent` |
-    | Definition | `This will be the parent term.` |
-    | Parent | `None` |
-    | Acronym | `CP` |
-    | Resource Name | `Azure Purview` |
-    | Resource Link | `https://aka.ms/Azure-Purview` |
+    | Field         | Example Value                   |
+    | ------------- | ------------------------------- |
+    | Status        | `Approved`                      |
+    | Name          | `Contoso Parent`                |
+    | Definition    | `This will be the parent term.` |
+    | Parent        | `None`                          |
+    | Acronym       | `CP`                            |
+    | Resource Name | `Azure Purview`                 |
+    | Resource Link | `https://aka.ms/Azure-Purview`  |
 
     ![New Term](../images/module04/04.03-term-create.png)
 
@@ -77,11 +83,11 @@ A glossary is an important tool for maintaining and organizing your catalog. You
 
 4. Populate the attribute fields as per the examples below and click **Apply**.
 
-    | Field  | Example Value |
-    | --- | --- |
-    | Attribute name | `Business Unit` |
-    | Field type | `Single choice` |
-    | Choices | `Sales`, `Marketing`, `Finance`, `Human Resources`, `IT`, |
+    | Field          | Example Value                                             |
+    | -------------- | --------------------------------------------------------- |
+    | Attribute name | `Business Unit`                                           |
+    | Field type     | `Single choice`                                           |
+    | Choices        | `Sales`, `Marketing`, `Finance`, `Human Resources`, `IT`, |
 
     ![Attribute](../images/module04/04.07-attribute-properties.png)
 
@@ -95,13 +101,13 @@ A glossary is an important tool for maintaining and organizing your catalog. You
 
 9. Populate the term fields as per the examples below and click **Create**.
 
-    | Field  | Example Value |
-    | --- | --- |
-    | Status | `Approved` |
-    | Name | `Contoso Child` |
-    | Definition | `This will be the long description for the child glossary term.` |
-    | Parent | `Contoso Parent` |
-    | Business Unit | `Marketing` |
+    | Field         | Example Value                                                    |
+    | ------------- | ---------------------------------------------------------------- |
+    | Status        | `Approved`                                                       |
+    | Name          | `Contoso Child`                                                  |
+    | Definition    | `This will be the long description for the child glossary term.` |
+    | Parent        | `Contoso Parent`                                                 |
+    | Business Unit | `Marketing`                                                      |
 
     ![](../images/module04/04.10-term-create2.png)
 

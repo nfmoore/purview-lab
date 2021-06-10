@@ -22,19 +22,15 @@ To populate Azure Purview with assets for data discovery and understanding, we m
 
 ## Table of Contents
 
-- [Module 02 - Register & Scan](#module-02---register--scan)
-  - [:thinking: Prerequisites](#thinking-prerequisites)
-  - [:hammer: Tools](#hammer-tools)
-  - [:loudspeaker: Introduction](#loudspeaker-introduction)
-  - [:dart: Objectives](#dart-objectives)
-  - [Table of Contents](#table-of-contents)
-  - [1. Grant the Azure Purview Managed Identity Access](#1-grant-the-azure-purview-managed-identity-access)
-  - [2. Upload Data to Azure Data Lake Storage Gen2 Account](#2-upload-data-to-azure-data-lake-storage-gen2-account)
-  - [3. Create a Collection](#3-create-a-collection)
-  - [4. Register a Source (ADLS Gen2)](#4-register-a-source-adls-gen2)
-  - [5. Scan a Source with the Azure Purview Managed Identity](#5-scan-a-source-with-the-azure-purview-managed-identity)
-  - [:mortar_board: Knowledge Check](#mortar_board-knowledge-check)
-  - [:tada: Summary](#tada-summary)
+1. [Grant the Azure Purview Managed Identity Access](#1-grant-the-azure-purview-managed-identity-access)
+  
+2. [Upload Data to Azure Data Lake Storage Gen2 Account](#2-upload-data-to-azure-data-lake-storage-gen2-account)
+  
+3. [Create a Collection](#3-create-a-collection)
+
+4. [Register a Source (ADLS Gen2)](#4-register-a-source-adls-gen2)
+  
+5. [Scan a Source with the Azure Purview Managed Identity](#5-scan-a-source-with-the-azure-purview-managed-identity)
 
 <div align="right"><a href="#module-02---register--scan">↥ back to top</a></div>
 
