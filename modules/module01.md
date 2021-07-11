@@ -28,12 +28,34 @@ To create and use the Azure Purview platform, you will need to provision an Azur
 
 <div align="right"><a href="#module-01---create-an-azure-purview-account">↥ back to top</a></div>
 
+
 ## 1. Create an Azure Purview Account
 
-1. A Purview account has already been created for you. This account has been created with the following **Configuration**:
+1. Sign in to the [Azure portal](https://portal.azure.com) with your Azure account and from the **Home** screen, click **Create a resource**.
 
-    | Parameter     | Example Value      | Note                                     |
-    | ------------- | ------------------ | ---------------------------------------- |
+    ![Create a Resource](../images/module01/01.01-create-resource.png)  
+
+2. Search the Marketplace for "Azure Purview" and click **Create**.
+
+    ![Create Purview Resource](../images/module01/01.02-create-purview.png)
+
+3. Provide the necessary inputs on the **Basics** tab.  
+
+    > Note: The table below provides example values for illustrative purposes only, ensure to specify values that make sense for your deployment.
+
+    | Parameter  | Example Value |
+    | --- | --- |
+    | Subscription | `Azure Internal Access` |
+    | Resource group | `purviewlab` |
+    | Purview account name | `purview-69426` |
+    | Location | `Brazil South` |
+
+    ![Purview Account Basics](../images/module01/01.03-create-basic.png)
+
+4. Provide the necessary inputs on the **Configuration** tab.
+
+    | Parameter  | Example Value | Note |
+    | --- | --- | --- |
     | Platform size | `4 capacity units` | Sufficient for non-production scenarios. |
 
     > :bulb: **Did you know?**
@@ -43,6 +65,18 @@ To create and use the Azure Purview platform, you will need to provision an Azur
     > **vCore Hours** on the other hand is the unit used to measure **serverless** compute that is needed to run a scan. You only pay per vCore Hour of scanning that you consume (rounded up to the nearest minute).
     >
     > For more information, check out the [Azure Purview Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-purview/) page.
+
+    ![Configure Purview Account](../images/module01/01.04-create-configuration.png)
+
+5. On the **Review + Create** tab, once the message in the ribbon returns "Validation passed", verify your selections and click **Create**.
+
+    ![Create Purview Account](../images/module01/01.05-create-create.png)
+
+6. Wait several minutes while your deployment is in progress. Once complete, click **Go to resource**.
+
+    ![Go to resource](../images/module01/01.06-goto-resource.png)
+
+<div align="right"><a href="#module-01---create-an-azure-purview-account">↥ back to top</a></div>
 
 ## 2. Grant Access to Azure Purview's Data Plane
 
